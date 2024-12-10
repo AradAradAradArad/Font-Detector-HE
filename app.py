@@ -33,8 +33,7 @@ def process_image(image, target_color):
 
 def main():
     st.title("Font Detection")
-    if st.button("Click me for balloons"):
-        st.balloons()
+
     # Upload image using Streamlit file uploader
     uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 
